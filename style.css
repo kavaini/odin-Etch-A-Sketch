@@ -3,3 +3,9 @@
   height: 500px;
   display: grid;
 }
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: bisque;
+}
