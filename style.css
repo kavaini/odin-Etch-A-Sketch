@@ -1,3 +1,16 @@
+body {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+}
+
 .board {
   width: 500px;
   height: 500px;
@@ -5,7 +18,26 @@
 }
 
 .container {
-  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.board {
   margin: auto;
-  background-color: bisque;
+  border: 5px solid red;
+}
+
+.buttons {
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #344cff;
+  color: white;
 }
